@@ -4,10 +4,9 @@ import backend
 
 def design():
     root = Tk()
-    # root.iconbitmap('Logo.ico')
     root.title('PathAI')
     root.geometry('800x780')
-    # root.resizable(width=FALSE, height=FALSE)
+  
     count = 0                                           # for identifying each button/vertex and passing unique parameters
     button_list = []                                    # stores button created during runtime
 
@@ -30,7 +29,7 @@ def design():
         print(supply_mode)
 
     def button_click(but_no):                           # clicked buttons in path
-        #print(but_no)
+       
         global supply_mode
         if supply_mode == 1:                                # for starting point when supply_mode = 1
             button_list[but_no].config(bg='yellow')
@@ -85,9 +84,6 @@ def design():
         obstacle_list = already_generated_obstacle
         for every in already_generated_obstacle:
             button_list[every].config(bg='black')
-
-    #level_button = Button(frame_up, text='tutorial', command=level_tut)
-    #level_button.grid(row=0, column=6, padx=10, pady=5)
 
     mainloop()
 design()
