@@ -7,4 +7,4 @@ The steps involved -
 The entire project is coded in Python.
 #### The link to the video is - (https://drive.google.com/file/d/1EBuIqFRgTnlalUHKB_6M7Z-oKgapGcOz/view?usp=sharing)
 ##### The image of the project -
-![ALt text](/home/user/Pictures/Screenshot from 2021-02-10 10-34-44.png?raw=true "Path Finder in AI") 
+![ALt text](https://drive.google.com/file/d/1mZGTrelHXykmqYa8vlCnqiB-YJu8EbmW/view?usp=sharing "Path Finder in AI") 
