@@ -33,11 +33,7 @@ def backened(src, obstacles, destination):
                 dist[v] = dist[u] + graph[u][v]
                 parent[v] = u
 
-    # for i in range(size):
-    #     print(i, '-------', dist[i])
-    # print(parent)
-
-    def ancestor(dest):
+       def ancestor(dest):
         list1 = []
         stop = dest
         while parent[stop] != -1:               # process of finding ancestory of destination vertex
@@ -47,5 +43,4 @@ def backened(src, obstacles, destination):
         return list1
 
     destination_parent = ancestor(destination)
-    #print('parent list', destination_parent)
     return destination_parent
